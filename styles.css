@@ -1,22 +1,29 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     color: white;
+    font-family:Arial, Helvetica, sans-serif;
     
 }
 
 body {
     display: flex;
-    padding: 50px;
     margin-top: 30px;
     background-color: #343D46;
 }
 
-ul {
+nav {
     list-style: none;
-    width: 200px;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
     background-color: #6A757F;
+    z-index: 100;
+    text-align:center;
+    font-size: 20px;
+    
 }
 
 img {
@@ -26,21 +33,47 @@ img {
     border-color:#6A757F;
     width: 350px;
     height: 350px;
-    position: fixed;
+    position: absolute;
     left: 30px;
     top: 220px;
+}
+
+section {
+    height: 100vh;
+}
+
+#workexp {
+    position: absolute;
+    top: 600px;
+    text-align: center;
+    
+
+}
+a {
+    text-decoration: none;
+    margin: 10px;
+    padding-top: 10px;
+}
+a:hover {
+   color: #384653;
+   
+}
+
+#persproj {
+position: absolute;
+top: 1200px;
+
 }
 
 header {
     position: absolute;
     left: 45%;
+    top: 80px;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 header .name {
     font-size: 35px;
-    
 }
 
 header .email, .phonenum{
@@ -49,17 +82,15 @@ header .email, .phonenum{
 }
 
 .hello {
-    position: fixed;
+    position: absolute;
     font-size: 35px;
-    font-family:Arial, Helvetica, sans-serif;
     top: 230px;
     left: 420px;
 }
 
 .bio-info{
-    position: fixed;
+    position: absolute;
     font-size: 24px;
-    font-family:Arial, Helvetica, sans-serif;
     top: 280px;
     left: 420px
 }
