@@ -51,7 +51,17 @@ section {
     position:absolute;
     top: 210px;
     left: 40px;
-    
+}
+
+.guideway {
+    border-style:solid;
+    border-width: 8px;
+    border-color:#6A757F;
+    position:absolute;
+    top: 345px;
+    left: 40px;
+    height: 280px;
+    width: 450px;
 }
 
 .we0 {
@@ -99,7 +109,14 @@ a:hover {
 #persproj {
 position: absolute;
 top: 1200px;
+}
 
+.persprojhead {
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    left: 500px;
+    white-space: nowrap;
 }
 
 header {
