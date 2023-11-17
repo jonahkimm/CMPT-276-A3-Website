@@ -156,6 +156,7 @@ section {
     font-size: 35px;
     position: absolute;
     left: 500px;
+    top: 90px;
     white-space: nowrap;
     
 }
@@ -226,4 +227,31 @@ header .email, .phonenum{
     font-size: 24px;
     top: 280px;
     left: 420px
+}
+
+.ambilamp {
+    border-style:solid;
+    border-width: 8px;
+    border-color:#6A757F;
+    position:absolute;
+    top: 180px;
+    left: 40px;
+    height: 280px;
+    width: 450px;
+}
+
+.persproj0 {
+    font-size: 25px;
+    position: absolute;
+    top: 180px;
+    left: 520px;
+    white-space: nowrap;
+}
+
+.persprojdesc {
+    font-size: 20px;
+    position: absolute;
+    left: 520px;
+    top: 208px;
+    white-space: nowrap;
 }
