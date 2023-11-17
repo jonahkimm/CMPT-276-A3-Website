@@ -25,7 +25,6 @@ nav {
     font-size: 20px;
     line-height: 45px;
 
-    
 }
 
 .profilepic {
@@ -40,6 +39,86 @@ nav {
     top: 220px;
 }
 
+.fbook {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 420px;
+    top: 480px;
+}
+
+.fbooktext {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 470px;
+    top: 475px; 
+}
+
+.ghub {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 423px;
+    top: 535px;
+}
+
+.ghubtext {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 470px;
+    top: 525px; 
+}
+
+.insta {
+    height: 46px;
+    width: 54px;
+    position: absolute;
+    left: 595px;
+    top: 482px;
+}
+
+.instatext {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 645px;
+    top: 475px; 
+}
+
+.linkedin {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 597px;
+    top: 535px;
+}
+
+.linkedintext {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 645px;
+    top: 525px; 
+}
+
+.twitter {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 770px;
+    top: 470px;
+}
+
+.twittertext {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 830px;
+    top: 475px; 
+}
+
 section {
     height: 100vh;
 }
@@ -51,7 +130,17 @@ section {
     position:absolute;
     top: 210px;
     left: 40px;
-    
+}
+
+.guideway {
+    border-style:solid;
+    border-width: 8px;
+    border-color:#6A757F;
+    position:absolute;
+    top: 345px;
+    left: 40px;
+    height: 280px;
+    width: 450px;
 }
 
 .we0 {
@@ -67,6 +156,7 @@ section {
     font-size: 35px;
     position: absolute;
     left: 500px;
+    top: 90px;
     white-space: nowrap;
     
 }
@@ -99,7 +189,14 @@ a:hover {
 #persproj {
 position: absolute;
 top: 1200px;
+}
 
+.persprojhead {
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    left: 500px;
+    white-space: nowrap;
 }
 
 header {
@@ -130,4 +227,31 @@ header .email, .phonenum{
     font-size: 24px;
     top: 280px;
     left: 420px
+}
+
+.ambilamp {
+    border-style:solid;
+    border-width: 8px;
+    border-color:#6A757F;
+    position:absolute;
+    top: 180px;
+    left: 40px;
+    height: 280px;
+    width: 450px;
+}
+
+.persproj0 {
+    font-size: 25px;
+    position: absolute;
+    top: 180px;
+    left: 520px;
+    white-space: nowrap;
+}
+
+.persprojdesc {
+    font-size: 20px;
+    position: absolute;
+    left: 520px;
+    top: 208px;
+    white-space: nowrap;
 }
