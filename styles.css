@@ -25,7 +25,6 @@ nav {
     font-size: 20px;
     line-height: 45px;
 
-    
 }
 
 .profilepic {
@@ -38,6 +37,86 @@ nav {
     position: absolute;
     left: 30px;
     top: 220px;
+}
+
+.fbook {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 420px;
+    top: 480px;
+}
+
+.fbooktext {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 470px;
+    top: 475px; 
+}
+
+.ghub {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 423px;
+    top: 535px;
+}
+
+.ghubtext {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 470px;
+    top: 525px; 
+}
+
+.insta {
+    height: 46px;
+    width: 54px;
+    position: absolute;
+    left: 595px;
+    top: 482px;
+}
+
+.instatext {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 645px;
+    top: 475px; 
+}
+
+.linkedin {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 597px;
+    top: 535px;
+}
+
+.linkedintext {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 645px;
+    top: 525px; 
+}
+
+.twitter {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 770px;
+    top: 470px;
+}
+
+.twittertext {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    left: 830px;
+    top: 475px; 
 }
 
 section {
