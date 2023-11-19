@@ -12,3 +12,6 @@ https://jonahkimm.github.io/CMPT-276-A3-Website/
 Technology Stack:
 - HTML
 - CSS
+
+Wireframe:
+https://mockitt.wondershare.com/proto/reoPYNTs3xqapfg3lekmR/sharing?view_mode=read_only
